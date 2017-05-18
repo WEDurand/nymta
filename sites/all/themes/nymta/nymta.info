@@ -1,0 +1,29 @@
+name = Nymta
+description = A custom template for Ny-mta.
+core = 7.x
+
+
+; First we remove the system's menu and message styling since Zen has its own.
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+
+; Then we add our own stylesheet.
+stylesheets[all][] = _assets/css/base.css
+stylesheets[all][] = _assets/css/grid.css
+stylesheets[all][] = _assets/css/topbar.css
+stylesheets[all][] = _assets/css/formalize.css
+stylesheets[all][] = _assets/css/template.css
+stylesheets[all][] = _assets/css/footer.css
+stylesheets[all][] = _assets/css/homepage.css
+
+regions[topbar-links] = Topbar Links
+regions[search] = Search
+regions[nav] = Main Navigation
+regions[content] = Content
+
+
+regions[footer_menu] = Footer Menu
+regions[footer_copyright] = Footer Copyright
+
+

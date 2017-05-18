@@ -1,0 +1,235 @@
+body {
+  font-family : "Helvetica Neue", "Helvetica", Arial, sans-serif;
+}
+
+.pan0, .mtasi-btn {
+  background : -moz-linear-gradient(50% -9.09% -90deg,rgba(36, 64, 143, 1) 0%,rgba(32, 168, 224, 1) 100%);
+  background : -webkit-linear-gradient(-90deg, rgba(36, 64, 143, 1) 0%, rgba(32, 168, 224, 1) 100%);
+  background : -webkit-gradient(linear,50% -9.09% ,50% 113.64% ,color-stop(0,rgba(36, 64, 143, 1) ),color-stop(1,rgba(32, 168, 224, 1) ));
+  background : -o-linear-gradient(-90deg, rgba(36, 64, 143, 1) 0%, rgba(32, 168, 224, 1) 100%);
+  background : -ms-linear-gradient(-90deg, rgba(36, 64, 143, 1) 0%, rgba(32, 168, 224, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#24408F', endColorstr='#20A8E0' ,GradientType=0)";
+  background : linear-gradient(180deg, rgba(36, 64, 143, 1) 0%, rgba(32, 168, 224, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#24408F',endColorstr='#20A8E0' , GradientType=0);
+}
+
+.panel-title {
+  font-size : 20px;
+  color : #fff;
+}
+
+.intro {
+  font-size : 16px;
+  line-height : 23.2px;
+  letter-spacing : -0.24px;
+  color : #231F20;
+  padding: 15px 240px;
+}
+
+
+.panel-group .panel+.panel {
+  margin-top: 12px;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.panel {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+.panel-body {
+  font-size : 16px;
+  line-height : 23.2px;
+  color : #231F20;
+  color : rgb(35, 31, 32);
+  padding: 3px 240px;
+}
+
+.jumbotron {
+  height: 220px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .jumbotron {
+  border-radius: 0;
+}
+
+.jumbotron h1 {
+  font-size : 52.55px;
+  line-height : 57.05px;
+  letter-spacing : -1.04px;
+  color : #FFFFFF;
+  font-weight: 200;
+  margin-top: 8px;
+}
+
+.mtasi-map .field-name-field-map-image img {
+  /*margin: auto;*/
+  /*display: block;*/
+  /*width: 860px;*/
+}
+
+.mtasi-cal img {
+  margin: auto;
+  display: block;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.mtasi-map {
+  display: block;
+  padding: 42px 0 20px;
+}
+
+.intro-title {
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: -0.42px;
+    text-align: center;
+    color: #231F20;
+}
+.mtasi-map .field-name-field-map-title .field-item{
+  font-size: 31px;
+  line-height: 45.77px;
+  color: #1D5AA9;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+ol li::first-line, .question, .mtasi-contact {
+  font-weight: 700;
+}
+
+ol li, ul li {
+  padding-left: 20px;
+}
+
+ol, ul {
+  padding-left: 20px;
+}
+
+.mtasi-lists {
+  margin-top: 30px;
+}
+
+.mtasi-faq {
+  margin-bottom: 30px;
+}
+
+.mtasi-textarea-label {
+  font-weight: 300;
+}
+
+.mtasi-btn {
+  color: rgba(255,255,255,1);
+  font-weight: 700;
+  padding: 12px 24px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.btn-default:hover {
+  color: rgba(255,255,255,.95);
+}
+
+.mtasi-learn-item {
+  margin-bottom: 30px;
+}
+
+.mtasi-learn-social {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mtasi-learn-social-icon {
+  width: 60px;
+}
+
+.mtasi-form {
+  margin-top: 12px;
+}
+
+.field-name-field-accordion-title {
+    background: linear-gradient(180deg, rgba(36, 64, 143, 1) 0%, rgba(32, 168, 224, 1) 100%);
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 0 10px 0 !important;
+   text-align:center;
+}
+
+.field-name-field-accordion-title .field-item{
+	color:white;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.field-name-field-accordion-title:after {
+    content:"\f077";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    font-size: 20px;
+    float: right;
+    margin: -24px 10px 0 0;
+    color:white;
+}
+
+
+.field-name-field-accordion-title.open:after {
+	content:"\f078";
+}
+
+.beforeafter {
+	margin: 0 auto;
+}
+
+.beforeafter--wrap,
+.beforeafter--links {
+    width: 860px;
+    margin: 0 auto;
+}
+
+/*.beforeafter-default .beforeafter--thumb i {
+	height: 84px;
+	top: 40%;
+}
+
+.beforeafter-default .beforeafter--thumb,
+.beforeafter-default .beforeafter--thumb i {
+	background: #1c57b3;
+}
+
+.beforeafter-default .beforeafter--thumb i:before,
+.beforeafter-default .beforeafter--thumb i:after {
+	top: 37px;
+	opacity: 1;
+}
+
+.beforeafter-default .beforeafter--thumb i:before {
+	border-right: 4px solid #FFFFFF;
+}
+
+.beforeafter-default .beforeafter--thumb i:after {
+	border-left: 4px solid #FFFFFF;
+}*/
+
+@media only screen and (max-width: 480px) {
+	/*.beforeafter--wrap {
+		width: 100%;
+	}
+	.mtasi-map .field-name-field-map-image img {
+		width: 100%;
+		height: 100%;
+	}*/
+}

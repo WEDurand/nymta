@@ -1,0 +1,83 @@
+html {
+	margin:0;
+	padding:0;
+	border:0;
+	background-color: #fff;
+}
+
+#topbar {
+	margin: 0;
+	padding:0;
+	height: 122px;
+}
+
+#topbar #branding { margin:0; padding:0;	float:left;}
+
+#topbar #search { margin:4px 20px 0 0; width:530px; float:right;}
+#topbar #search ul.menu { margin:10px 0 6px 4px; list-style-type:none; float:right; }
+#topbar #search ul.menu li a { font-size:88%; text-decoration:none; color:#000099; }
+#topbar #search ul.menu li a:visited { color: #000099; }
+#topbar #search ul.menu li a:hover { color: #000; }
+#topbar #search form#searchform  {	margin:10px 0 0 0; float:right; }
+#topbar #search form#searchform input#searchbutton, #topbar #search form#searchform input#searchinputbox { margin:0; padding:0; float:right; }
+#topbar #search form#searchform input#searchbutton { vertical-align:middle; }
+/* #topbar #search form#searchform input#searchinputbox { margin-right:6px;} */
+
+
+/* styles for top navigation bar */
+
+#horizontalcssmenu {
+	clear: both;
+}
+
+#horizontalcssmenu ul.menu{ margin: 0; padding: 0; list-style-type: none;}
+#horizontalcssmenu ul.menu li{	position: relative;	display: inline; float: left; border-left: 1px #aeaeb0 solid; height: 31px; padding-left:0px!important;}
+#horizontalcssmenu ul.menu li a{ display: block; background: #fff url('/sites/all/themes/nymta/_assets/images/nav_bg.jpg') top left repeat-x; padding: 10px 0px 5px; text-decoration: none; color: #fff; font-weight:bold;	text-align:center;font-size:13px; }
+#horizontalcssmenu ul.menu li a:hover{ background: #fff url('/sites/all/themes/nymta/_assets/images/nav_bg_on.jpg') top left repeat-x;}
+
+/*Sub level menu*/
+#horizontalcssmenu ul.menu li ul{ margin:0;padding:6px 0;position: absolute;display: block;visibility: hidden;z-index: 100;background-color: #ddd;}
+
+/*Sub level menu list items*/
+#horizontalcssmenu ul.menu li ul li{display: inline;float: none;border-left: none;}
+
+/* Sub level menu links style */
+#horizontalcssmenu ul.menu li ul li a{
+	padding: 4px 10px;
+	width: 175px; /*width of sub menu levels*/
+	font-size:88%;
+	color:#000;
+	background-image: none;
+	background-color: #ddd;
+	border-width: 0 1px 1px 1px;
+	text-align:left;
+}
+
+#horizontalcssmenu ul.menu li ul li a.last {
+	padding-bottom: 1.5em;
+}
+
+#horizontalcssmenu ul.menu li ul li a:hover{
+	background-image: none;
+	background-color: #ddd;
+	color:#0071C1;
+}
+
+* html p#iepara{ /*For a paragraph (if any) that immediately follows menu, add 1em top spacing between the two in IE*/
+padding-top: 1em;
+}
+
+/* Holly Hack for IE \*/
+* html #horizontalcssmenu ul.menu li { float: left; height: 1%; }
+* html #horizontalcssmenu ul.menu li a { height: 1%; }
+* html #horizontalcssmenu ul.menu li ul li { float: left;}
+/* End */
+
+#breadcrumbs { margin: 20px 0px 0px 20px;}
+#google_translate_element {height: 44px;}
+
+#topbar #search_box {
+margin-top:17px !important;
+margin-right:-39px !important;
+
+}
